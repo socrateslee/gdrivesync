@@ -22,7 +22,7 @@ Each of dir_name* is a local directory to sync, for specify the sync beheavior, 
      
 The meanning of keys in .gdrivesync files are:
 
-    + __remote\_id__ The id of your target folder in google drive, your files will be sync to this folder.
-    + __remote\_dir__ If no _remote\_id_ provided, the tools will try find the id of this folder in your google drive.
-    + __include__ If provided, only files matched specified patterns will be synced.
-    + __exclude__ If provided, files matched specified patterns will be removed. Note that the tools will adopt _include_ first, _exclude_ after.
++ __remote\_id__ The id of your target folder in google drive, your files will be sync to this folder.
++ __remote\_dir__ If no _remote\_id_ provided, the tools will try find the id of this folder in your google drive.
++ __include__ If provided, only files matched specified patterns will be synced.
++ __exclude__ If provided, files matched specified patterns will be removed. Note that the tools will adopt _include_ first, _exclude_ after.
