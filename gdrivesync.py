@@ -3,6 +3,7 @@ gdrivesync
 
 Sync files in local directory to a Google Drive directory.
 '''
+__version__ = '0.1.0'
 import httplib2
 import json
 import fnmatch
