@@ -4,9 +4,9 @@ gdrivesync
 A simple python tools to sync files in a local directory to Google Drive directory.
 
 ##usage
-Please register a Google api key for access Drive SDK, and
+Please register a Google api key for access Drive API, and
 
-    python -c config_file.json [dir_name1[, dir_name2[, ...]]]
+    python -c gdrivesync.py config_file.json [dir_name1[, dir_name2[, ...]]]
     
 The confie_file.json should be a json file like
 
